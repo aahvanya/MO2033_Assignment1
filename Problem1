@@ -6,11 +6,11 @@ namespace MO2033_Assignment1
     {
         static void Main(string[] args)
         {
-            // Numeric Comparison
+           
             Console.WriteLine("Please enter your age:");
             int age;
             
-            // Ensure the input is a valid integer
+           
             while (!int.TryParse(Console.ReadLine(), out age))
             {
                 Console.WriteLine("Invalid input. Please enter a valid number for your age:");
@@ -25,7 +25,7 @@ namespace MO2033_Assignment1
                 Console.WriteLine("You are a minor.");
             }
 
-            // String Comparison
+            
             Console.WriteLine("\nPlease enter your favorite fruit (e.g., apple, banana):");
             string favoriteFruit = Console.ReadLine().ToLower(); // Convert input to lowercase for easy comparison
 
