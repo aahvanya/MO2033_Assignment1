@@ -7,7 +7,7 @@ namespace MO2033_Assignment1
     {
         static void Main(string[] args)
         {
-            GreetUser("John");  // Test the greeting method with different names.
+            GreetUser("John");  
             GreetUser("Alice");
 
             Console.WriteLine("Welcome to the Calculator!");
