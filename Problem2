@@ -14,7 +14,7 @@ namespace MO2033_Assignment1
                 Console.WriteLine($"{i + 1}. {fruits[i]}");
             }
 
-            // Let's do something interesting: ask the user for their favorite fruit and inform if it's on the list
+            
             Console.WriteLine("\nWhich of the above fruits is your favorite?");
             string userFruit = Console.ReadLine().ToLower();
 
