@@ -13,7 +13,7 @@ namespace MO2033_Assignment1
             while (true)
             {
                 Console.WriteLine("Enter a character:");
-                char userInput = Console.ReadKey().KeyChar; // Read a single character from user input
+                char userInput = Console.ReadKey().KeyChar; 
                 
                 if (userInput == '!')
                 {
@@ -21,7 +21,7 @@ namespace MO2033_Assignment1
                     break;
                 }
                 
-                constructedWord += userInput; // Add the character to our word
+                constructedWord += userInput; 
 
                 Console.WriteLine($"\nCurrent word: {constructedWord}");
             }
